@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# AWS credentials (絶対にコミットしない)
+*.pem
+.aws/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
